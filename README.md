@@ -1,9 +1,9 @@
 # CS50AI Project 6b - Questions
 
 
-**Basic python AI to answer questions
+**Basic python AI to answer questions**
 
-*Requirements: Inside of the questions directory, run pip3 install -r requirements.txt to install this project’s dependency: nltk for natural language processing.
+**Requirements: Inside of the questions directory, run pip3 install -r requirements.txt to install this project’s dependency: nltk for natural language processing.**
 
 
     $ python questions.py corpus
