@@ -1,3 +1,5 @@
+# CS50AI Project 5 - Traffic
+
 Here are my findings:
 
 Firstly, I experimented with different pool sizes and found out that increasing the pool size did not help.
