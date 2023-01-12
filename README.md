@@ -1,11 +1,13 @@
 # CS50AI Project 6b - Questions
 
-Basic python AI to answer questions
+
+**Basic python AI to answer questions
+
+*Requirements: Inside of the questions directory, run pip3 install -r requirements.txt to install this project’s dependency: nltk for natural language processing.
+
 
     $ python questions.py corpus
-
     Query: What are the types of supervised learning?
-
     Types of supervised learning algorithms include Active learning , classification and regression.
 
     $ python questions.py corpus
