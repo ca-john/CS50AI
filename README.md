@@ -3,6 +3,12 @@
 
 **Basic python AI to answer questions**
 
+Our question answering system will perform two tasks: document retrieval and passage retrieval. Our system will have access to a corpus of text documents. When presented with a query, document retrieval will first identify which documents are most relevant to the query. Once the top documents are found, the top documents will be subdivided into passages so that the most relevant passage to the question can be determined.
+
+How do we find the most relevant documents and passages? To find the most relevant documents, we use term frequency–inverse document frequency to rank documents based both on term frequency for words in the query as well as inverse document frequency for words in the query. Once we’ve found the most relevant documents, there many possible metrics for scoring passages, but we use a combination of inverse document frequency and a query term density measure
+
+
+
 **Requirements: Inside of the questions directory, run:**
     
     pip3 install -r requirements.txt to install this project’s dependency: nltk for natural language processing.
